@@ -1,0 +1,201 @@
+.Footer{
+    
+    background: radial-gradient(#2f3943, black);
+    min-height: auto;
+    min-width: 100%;
+    overflow: hidden;
+      
+}
+
+.CopyR{
+    min-height: auto;
+    min-width: 100%;
+    background-color:rgba(47, 57, 67);
+}
+
+.Footer-Content{
+    display: flex;
+    font-family:Georgia;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+
+.footer-fbLogo{
+    font-family:Georgia;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-wrap:nowrap;
+   
+ 
+}
+
+
+.BoxCon{
+    font-family:Georgia;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-wrap:nowrap;
+    
+
+    
+}
+
+.BoxTim{
+    font-family:Georgia;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-wrap:nowrap;
+  }
+
+.Main-Logo{
+    font-family:Georgia;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-wrap:nowrap;
+}
+
+
+.Footer-copyR{
+   
+    font-family:Georgia;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-wrap:nowrap;
+}
+
+.Time-Box{
+    padding: 10px;
+}
+
+.Time-Box li { /* list */
+    color: aliceblue;
+    font-family:Georgia;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    gap: 5px;
+    padding-top: 5px;
+}
+
+.Time-Box ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.Time-Box h3 {
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    color: aliceblue;
+
+}
+
+.Contact-Box{
+    padding: 10px;
+}
+.Contact-Box li  { /* list */
+    color: aliceblue;
+    font-family:Georgia;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    gap: 5px;
+    padding-top: 5px;
+}
+
+.Contact-Box ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.Contact-Box h3 {
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    color: aliceblue;
+}
+
+.fb-Box{
+    padding:10px;
+}
+
+.fb-Box h3 {
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    color: aliceblue;
+}
+
+
+
+@media all and (max-width:494px) {
+
+    .Footer-Content{
+        display: flex;
+        font-family:Georgia;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+        gap: 25px;
+    
+    }
+    
+.Footer-CopyR{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap:nowrap;
+        
+}
+
+
+   
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo{
+      animation: logo-spin infinite 15s linear;
+     
+    }
+  }
+
+  @keyframes logo-spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+    
+  }
+
+/* Continue working on fixing the contact us box when dimension
+is in responsive mode address moves****FIXED */ 

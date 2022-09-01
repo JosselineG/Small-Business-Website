@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color: rgba(47, 57, 67);
+
+}
+
+.App-header {
+/*   background-color: #031019; */
+  background: radial-gradient(white,#2f3943, black);
+  min-height: 10%;
+
+  display: flex;
+  overflow:hidden;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+ 
+}
+
+.App-header h1{
+  font-size: 40px;
+ 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background: -webkit-radial-gradient(black, rgb(72, 70, 70));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+
+

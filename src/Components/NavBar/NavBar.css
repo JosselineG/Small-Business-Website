@@ -1,0 +1,79 @@
+.NavBar {
+    overflow: hidden;
+    background-color: rgba(47, 57, 67, 0.3);
+    position: sticky;/* this helps maintain navBar on top when scrolling */
+    top: 0;
+    width: 100%;
+}
+
+
+.NavBar li { /* list */
+    padding: 5px;
+    display: inline;
+}
+
+.NavBar-Content {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+/*  .NavBar-Logo {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}  */
+
+.Menu {/*This won't display the menu bar in a screen width greater than 494px*/
+    display: none;
+}
+
+
+
+@media all and (max-width:494px) {
+
+
+    .NavBar-Content {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .NavBar-Links ul {
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }  
+
+    .NavBar-Links li {
+        border-top: 1px solid white;
+        border-radius: 5px;
+    }
+
+    .Menu{
+        display:block;
+        flex-direction: row;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        
+    }  
+
+}

@@ -1,0 +1,69 @@
+.HomeMain{
+    width: 100%;
+    height: 250vh;
+    background: linear-gradient(200deg,white,grey);
+    overflow: hidden;
+}
+
+.rows div{
+    background-color: aqua;
+    box-sizing: border-box;
+   margin:10px;
+   padding: 10px;
+   width: 200px;
+   height:300px;
+   transition-property: all;
+   transition-property: transform;
+   transition-duration: 1s;
+    transition-timing-function: ease-in;
+
+}
+
+.conts{
+    padding: 20px;
+    margin:20px;
+}
+
+
+.body{
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../ServicesPic2.png"), linear-gradient(130deg,#2e85b7,white, grey);
+    background-repeat:no-repeat, no-repeat;
+    background-size: 60% 100%;
+    background-position: right top, left top;
+   
+   
+}
+
+.body-heading h1{
+    
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    padding: 10px;
+    font-family:'verdana';
+    font-weight: 800;
+    font-size: 45px;
+    letter-spacing: 0.10em;
+}
+
+.listOfServices li{
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.listOfServices{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+.Location{
+    bottom: 0;
+}
