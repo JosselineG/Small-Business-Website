@@ -1,6 +1,6 @@
 .NavBar {
     overflow: hidden;
-    background-color: rgba(47, 57, 67, 0.3);
+    background-color: rgb(34, 51, 59,0.8) ;
     position: sticky;/* this helps maintain navBar on top when scrolling */
     top: 0;
     width: 100%;

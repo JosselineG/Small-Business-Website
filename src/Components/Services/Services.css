@@ -1,10 +1,11 @@
 .body{
     height: 100vh;
     overflow: hidden;
-    background-image: /* url("../ServicesPic2.png"), */ linear-gradient(130deg,#2e85b7,white, grey);
-    background-repeat:no-repeat, no-repeat;
+    background-color: #f2f4f3;
+     background-image:  /*url("../ServicesPic2.png"),*/  linear-gradient(270deg,#0a0908,#22333b, #a9927d); 
+/*     background-repeat:no-repeat, no-repeat;
     background-size: 60% 100%;
-    background-position: right top, left top;
+    background-position: right top, left top; */
    
    
 }

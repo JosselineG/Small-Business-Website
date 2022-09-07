@@ -6,7 +6,7 @@
 
 .App-header {
 /*   background-color: #031019; */
-  background: radial-gradient(white,#2f3943, black);
+  background: linear-gradient( #0a0908,#22333b);
   min-height: 10%;
 
   display: flex;
@@ -22,9 +22,10 @@
   font-size: 40px;
  
   font-family:Georgia, 'Times New Roman', Times, serif;
-  background: -webkit-radial-gradient(black, rgb(72, 70, 70));
+  
+ /*  background: -webkit-radial-gradient(black, rgb(72, 70, 70));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 
 }
 
