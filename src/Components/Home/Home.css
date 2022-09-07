@@ -1,6 +1,6 @@
 .HomeMain{
     width: 100%;
-    height: 250vh;
+    height: 100vh;
     background: linear-gradient(200deg,white,grey);
     overflow: hidden;
 }
@@ -28,7 +28,7 @@
 .body{
     height: 100vh;
     overflow: hidden;
-    background-image: url("../ServicesPic2.png"), linear-gradient(130deg,#2e85b7,white, grey);
+    background-image:/*  url("../ServicesPic2.png"), */ linear-gradient(130deg,#2e85b7,white, grey);
     background-repeat:no-repeat, no-repeat;
     background-size: 60% 100%;
     background-position: right top, left top;

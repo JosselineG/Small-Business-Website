@@ -1,5 +1,5 @@
-
-import logo from "../Logo2.1.3.png";
+/* 
+import logo from "../Logo2.1.3.png"; */
 import './NavBar.css';
 import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -16,9 +16,9 @@ function NavBar() {
 
                 <div className='NavBar-Logo' >
 
-                    <Link className='nav-Logo' to="/">
+                 {/*    <Link className='nav-Logo' to="/">
                         <img src={logo} alt="logo" style={{ width: '100%', height: 'auto', maxWidth: '60px', margin: '0px', padding: '3px' }} />
-                    </Link>
+                    </Link> */}
 
                 </div>
 

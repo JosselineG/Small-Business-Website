@@ -6,7 +6,7 @@ import Home from "./Components/Home/Home";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Services from "./Components/Services/Services";
-import logo from "./headerLogo1.3.4.png";
+/* import logo from "./headerLogo1.3.4.png"; */
 import 'animate.css';
 
 
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
      <header className="App-header">
-      <h1 class="animate__animated animate__lightSpeedInRight">CROTON AUTO REPAIR </h1>
+      <h1 class="animate__animated animate__lightSpeedInRight"></h1>
      {/* <img src={logo} class="animate__animated animate__lightSpeedInRight"  alt="logo" style={{width: '100%',height:'auto', maxWidth: '430px'}}/> */}
      
      </header>

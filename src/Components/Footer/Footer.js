@@ -1,6 +1,6 @@
 import React from "react";
 import Button from '@mui/material/Button'
-import logo from "../Logo2.1.3.png";
+/* import logo from "../Logo2.1.3.png"; */
 import CopyrightIcon from '@mui/icons-material/Copyright';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import './Footer.css';
@@ -12,7 +12,7 @@ function Footer() {
             <div className="Footer-Content">
                 <div className='Main-Logo' >
 
-                    <img className="logo" src={logo} alt="logo" style={{ width: '140px', height: '100', margin: '0px', padding: '10px' }} />
+                {/*     <img className="logo" src={logo} alt="logo" style={{ width: '140px', height: '100', margin: '0px', padding: '10px' }} /> */}
 
                 </div>
 
@@ -21,7 +21,7 @@ function Footer() {
                     <div className="fb-Box">
                         <h3>Social</h3>
 
-                        <a className="fb-Logo" href="https://www.facebook.com/Crotonautorepair"  >
+                        <a className="fb-Logo" >
                             <Button endIcon={<FacebookOutlinedIcon style={{ display: 'flex', alignItems: "center", flexWrap: 'wrap' }} />} />
                         </a>
                     </div>
@@ -32,9 +32,9 @@ function Footer() {
                     <div className="Contact-Box" >
                         <h3>Contact Us</h3>
                         <ul>
-                            <li> <div className="i">Phone Number:</div>  <div className="info">(914) 862-2376</div></li>
-                            <li> <div className="i">Email:</div>  <div className="info">crotonautorepair@gmail.com</div></li>
-                            <li> <div className="i">Address:</div>  <div className="info">&nbsp;&nbsp;380 S Riverside Ave, Croton-On-Hudson, NY 10520</div></li>
+                            <li> <div className="i">Phone Number:</div>  <div className="info"></div></li>
+                            <li> <div className="i">Email:</div>  <div className="info"></div></li>
+                            <li> <div className="i">Address:</div>  <div className="info">&nbsp;&nbsp;</div></li>
                         </ul>
                     </div>
 
@@ -61,7 +61,7 @@ function Footer() {
                     <div className="Footer-copyR">
 
                         Copyrights&nbsp; <CopyrightIcon style={{ fontSize: 25, color: 'white' }} />
-                        &nbsp;2022 Croton Auto Repair LLC and Towing Services. All Rights Reserved.
+                        &nbsp; All Rights Reserved.
 
                     </div>
 

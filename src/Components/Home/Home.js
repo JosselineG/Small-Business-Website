@@ -7,7 +7,7 @@ function Home() {
     return (
         <div className='HomeMain'>
        
-            <div className='conts'>
+           {/* <div className='conts'>
 
                 <Grid
                     className='rows'
@@ -51,9 +51,9 @@ function Home() {
                     </div>
 
                 </Grid>
-            </div>
-            <div className='Location'>
-                {/* <p>Stop by and visit us we will be here to help you!</p> */}
+            </div> 
+             <div className='Location'>
+                {//<p>Stop by and visit us we will be here to help you!</p> }
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3002.2360241855336!2d-73.8837658!3d41.1948276!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2c7964c6a2ea7%3A0xebcb8a9ce52da5ef!2sCroton%20Auto%20Repair%20LLC%20and%20Towing%20Service!5e0!3m2!1sen!2sus!4v1658458107755!5m2!1sen!2sus"
                     width="100%"
                     height="350"
@@ -63,8 +63,10 @@ function Home() {
 
                 ></iframe>
 
-            </div>
+            </div> */}
+
         </div>
+      
 
     )
 }

@@ -15,7 +15,7 @@ function Services() {
 
                 <span class="animate__animated animate__zoomInLeft">
 
-                    <li>Brakes</li>
+                 {/*    <li>Brakes</li>
                     <li>Tune-ups</li>
                     <li>Oil Changes</li>
                     <li>Gerneral Service</li>
@@ -23,7 +23,7 @@ function Services() {
                     <li>A/C Service</li>
                     <li>Inspection</li>
                     <li>Car Audio & Video Service</li>
-                    <li>Towing Services</li>
+                    <li>Towing Services</li> */}
                 </span>
 
                 {/*  <div className='serImg'>

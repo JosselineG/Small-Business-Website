@@ -115,7 +115,7 @@ function ContactUs() {
 
                 <div className='ContactInfo'>
                     
-                        <h2>We are here to help!</h2>
+                      {/*   <h2>We are here to help!</h2>
                         <h3>If you have any questions contact us.</h3>
                         <p >Email:</p>
                         <a style={{ color: "black", textDecoration: "none" }} href="mailto: crotonautorepair@gmail.com">
@@ -129,15 +129,15 @@ function ContactUs() {
                         <a style={{ color: "black", textDecoration: "none" }}
                             href="https://www.google.com/maps/place/Croton+Auto+Repair+LLC+and+Towing+Service/@41.1946705,-73.8837658,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c2c718ea0593cb:0x2674c68aa0ad3977!2s380+S+Riverside+Ave,+Croton-On-Hudson,+NY+10520!3b1!8m2!3d41.1948236!4d-73.8815771!3m4!1s0x89c2c7964c6a2ea7:0xebcb8a9ce52da5ef!8m2!3d41.1946705!4d-73.8815771">
                             380 S Riverside Ave, Croton-On-Hudson, NY 10520
-                        </a>
+                        </a> */}
                    
                 </div>
 
             </div>
             <div className='Location'>
               
-
-                    {/* <p>Stop by and visit us we will be here to help you!</p> */}
+{/* 
+                    // <p>Stop by and visit us we will be here to help you!</p> 
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3002.2360241855336!2d-73.8837658!3d41.1948276!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2c7964c6a2ea7%3A0xebcb8a9ce52da5ef!2sCroton%20Auto%20Repair%20LLC%20and%20Towing%20Service!5e0!3m2!1sen!2sus!4v1658458107755!5m2!1sen!2sus"
                         width="100%"
                         height="350"
@@ -145,7 +145,7 @@ function ContactUs() {
                         allowFullScreen=""
                         loading="lazy"
 
-                    ></iframe>
+                    ></iframe> */}
              
             </div>
         </div>
