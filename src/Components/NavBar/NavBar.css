@@ -4,8 +4,12 @@
     position: sticky;/* this helps maintain navBar on top when scrolling */
     top: 0;
     width: 100%;
-}
 
+}
+.nav-Logo{
+    color: white;
+    text-decoration: none;
+}
 
 .NavBar li { /* list */
     padding: 5px;

@@ -16,9 +16,9 @@ function NavBar() {
 
                 <div className='NavBar-Logo' >
 
-                 {/*    <Link className='nav-Logo' to="/">
-                        <img src={logo} alt="logo" style={{ width: '100%', height: 'auto', maxWidth: '60px', margin: '0px', padding: '3px' }} />
-                    </Link> */}
+                 <Link className='nav-Logo' to="/">
+                        <img /* src={logo} */ alt="Logo" style={{ width: '100%', height: 'auto', maxWidth: '60px', margin: '0px', padding: '3px' }} />
+                    </Link>
 
                 </div>
 

@@ -14,9 +14,8 @@ function App() {
   return (
     <div className="App">
      <header className="App-header">
-      <h1 class="animate__animated animate__lightSpeedInRight"></h1>
-     {/* <img src={logo} class="animate__animated animate__lightSpeedInRight"  alt="logo" style={{width: '100%',height:'auto', maxWidth: '430px'}}/> */}
-     
+      <h1 class="animate__animated animate__lightSpeedInRight">NAME OF COMPANY</h1>
+    {/*  <img src={logo} class="animate__animated animate__lightSpeedInRight"  alt="LOGO" style={{width: '100%',height:'auto', maxWidth: '430px'}}/> */}
      </header>
      
      <NavBar/>

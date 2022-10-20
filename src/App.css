@@ -8,7 +8,7 @@
 /*   background-color: #031019; */
   background: linear-gradient( #0a0908,#22333b);
   min-height: 10%;
-
+  color: white;
   display: flex;
   overflow:hidden;
   flex-direction: row;

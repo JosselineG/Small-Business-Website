@@ -6,8 +6,27 @@ function Home() {
 
     return (
         <div className='HomeMain'>
-       
-           {/* <div className='conts'>
+
+            <img className='randomImg' alt={""} src={"https://picsum.photos/600/400/?blur=9"} />
+
+            <span className='BodyText'>
+                <p>Lorem ipsum dolor sit amet. Rem quisquam eveniet est dolor nihil et provident perferendis non quos omnis ea aliquam sunt. Aut porro aliquam et rerum
+                    quia qui velit ipsum aut laudantium omnis. Ab ipsam omnis ex nihil dolores aut accusamus consequatur. </p>
+                <p>Ut voluptas voluptas et cumque ducimus sed libero galisum et dignissimos quibusdam quo maiores dignissimos. In deserunt incidunt in
+                    voluptas quos et rerum odio est iste eius! </p>
+                <p>Et nesciunt nulla et debitis autem rem iste inventore eos recusandae consequatur quo obcaecati possimus qui odio velit. Ut minus error a
+                    deleniti vitae et aliquam eveniet nam magni dolores non totam eaque 33 sunt cumque. Est odit excepturi ut ipsum temporibus et molestias
+                    nostrum. Aut voluptatem doloremque et consectetur voluptate ut aperiam sapiente ex asperiores facere. </p>
+                <p>Eum autem enim vel quia atque id saepe voluptatibus aut ipsum dolor rem omnis suscipit. Aut molestiae dolor qui quam fugiat non esse nostrum
+                    sit eius dicta a laudantium blanditiis. Qui molestiae dolores aut perferendis quia in molestiae quia et quia autem non accusamus quod eum
+                    unde eveniet in impedit suscipit. </p>
+                <p>Vel quia commodi sit perspiciatis perferendis vel distinctio neque aut eaque veniam non consequuntur aperiam 33 illum molestiae est sapiente
+                    quisquam. Et omnis nisi et ipsam illum quo cupiditate dicta et dolorum illum non excepturi nulla aut consequatur voluptatibus. </p>
+            </span>
+
+
+
+            {/* <div className='conts'>
 
                 <Grid
                     className='rows'
@@ -29,7 +48,7 @@ function Home() {
                         <h3>Oil Changes</h3>
                         <p>we fix brakes etc</p>
                     </div>
-                    <div className='Service4'>
+                    <div className='Service4'
                         <h3>General Service</h3>
                         <p>we fix brakes etc</p>
                     </div>
@@ -66,7 +85,7 @@ function Home() {
             </div> */}
 
         </div>
-      
+
 
     )
 }

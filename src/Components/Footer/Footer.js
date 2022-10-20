@@ -32,9 +32,9 @@ function Footer() {
                     <div className="Contact-Box" >
                         <h3>Contact Us</h3>
                         <ul>
-                            <li> <div className="i">Phone Number:</div>  <div className="info"></div></li>
-                            <li> <div className="i">Email:</div>  <div className="info"></div></li>
-                            <li> <div className="i">Address:</div>  <div className="info">&nbsp;&nbsp;</div></li>
+                            <li> <div className="i">Phone Number:</div>(000)000-0000<div className="info"></div></li>
+                            <li> <div className="i">Email:</div>john.doe@gmail.com<div className="info"></div></li>
+                            <li> <div className="i">Address:</div># St Name,City Zip Code<div className="info">&nbsp;&nbsp;</div></li>
                         </ul>
                     </div>
 
@@ -45,12 +45,12 @@ function Footer() {
                     <div className="Time-Box">
                         <h3>Business Hours</h3>
                         <ul>
-                            <li> <div className="Day">Monday</div> <div className="Time">8:30AM-6PM</div> </li>
-                            <li> <div className="Day">Tuesday</div> <div className="Time">8:30AM-6PM</div> </li>
-                            <li> <div className="Day">Wednesday</div> <div className="Time">&nbsp;&nbsp;8:30AM-6PM</div> </li>
-                            <li> <div className="Day">Thursday</div> <div className="Time">8:30AM-6PM</div> </li>
-                            <li> <div className="Day">Friday</div> <div className="Time">8:30AM-6PM</div> </li>
-                            <li> <div className="Day">Saturday (By Appointment Only)</div> <br/><div className="Time">9AM-1PM </div> </li>
+                            <li> <div className="Day">Monday</div> <div className="Time">8:00AM-5PM</div> </li>
+                            <li> <div className="Day">Tuesday</div> <div className="Time">8:00AM-5PM</div> </li>
+                            <li> <div className="Day">Wednesday</div> <div className="Time">&nbsp;&nbsp;8:30AM-5PM</div> </li>
+                            <li> <div className="Day">Thursday</div> <div className="Time">8:00AM-5PM</div> </li>
+                            <li> <div className="Day">Friday</div> <div className="Time">8:00AM-5PM</div> </li>
+                            <li> <div className="Day">Saturday</div> <br/><div className="Time">Closed</div> </li>
                             <li> <div className="Day">Sunday</div> <div className="Time">Closed</div> </li>
                         </ul>
                     </div>
